@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>애완돌 Dori</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Noto+Sans+KR:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<style>
+/*기본세팅*/
+		body,h1,h2,h4,h5,img,p,li,ul,nav,img{margin: 0; padding: 0;}
+		section{margin: 0; padding: 0; background: #F0EDE6;}
+		p{font-family: 'Noto Sans KR', sans-serif; font-size: 1em;}
+		*{font-family: 'Gaegu', sans-serif; }
+		h1{font-family: 'Gaegu', sans-serif;}
+		h2{font-family: 'Gaegu', sans-serif; font-size: 4.5em; font-weight: bold; text-align: center;}
+		h3{font-family: 'Gaegu', sans-serif; font-size: 3em; font-weight: bold;}
+		h4{display: block; width: 250px;height: 10px;text-align: center;font-family: 'Noto Sans KR', sans-serif;font-size:1.25em; float: left;}
+		h5{font-size: 1.25em;}
+/*wrap*/
+		.wrap{width: 1000px; height: 800px; margin: auto;}
+		.wrap2{width: 1000px; height:790px;margin: auto;}
+		.wrap4{position: relative; z-index: 2;width: 1000px; height: 350px; margin: auto;}
+		.wrap5{width: 1000px; margin: auto;}
+		.wrap3{position: relative; z-index: 1; width: 1000px; height: 2500px; margin: auto; background-size: 100% 100%; background-repeat: no-repeat;}
+		.rev{position: relative;width: 1000px; height: 1050px; margin: auto;justify-content: center;}
+/*text style*/
+/*네비게이션*/
+			li{list-style-type: none;}
+			.menu{display:flex;margin-left:auto;}
+			a{display: block; color: black;
+			text-decoration: none; line-height: 55px;
+			padding: 0px 63.8px; font-size: 1.25em; font-style: bold;}
+			a:hover{transition: all 0.25s;
+				background: #665943;
+				color:#B2BC73;}
+			nav{width: 1000px;  height: 55px; top: 0px;left: 0px; background: 
+				#B2BC73; left: calc(50% - 500px); margin: 0; padding: 0; 
+				z-index: 5;}
+			button{width: 508px; height: 100px; background-color: #554A39 ; color:white; box-shadow: 0.4px 16px #rgba(0, 79, 255, 0.4); font-size: 48px; font-weight: bold;
+				border-radius:200px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); transition: transition: 0.3; font-size: 2}
+			button:focus{outline: 05;} 
+			button:hover{background-color:rgba(0, 79,255,0.9); cursor:pointer;box-shadow:0 2px 4px#rgba(0, 79, 255, 0.6); font-size: 48px;  }
+			.nav{margin: auto; margin-left: auto;display: flex; height: 55px; top: 0px;left: 0px; background: #B2BC73; left: calc(50% - 50px); margin: 0; padding: 0; 
+				z-index: 5;position: sticky; justify-content: center;
+				font-weight: bold;}
+/*이외*/
+		.circle{float: left; padding: 0px; margin: 0px;}
+		.talk{position: sticky; bottom:100px; top: 100px;left: 0px;z-index: 1;}
+		.dori{width: 280px;  height: 300px; float: left; position: absolute; padding: 235px; ;padding-left:645px; font-size: 1em;}
+		.can{display: block; position: relative; width: 350px; height:400px;}
+		.can2{display: flex; justify-content: center; align-items: center; padding-top:120px; }
+		.gif{display: block; align-items: right; }
+		.need1{transition: 0.3s;}
+		.img_bg1{position: absolute;margin-top:225px;float: left; }
+		.column-3{width: 200px; height: 200px; float: left;}
+
+@keyframes disappear-appear {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+	@keyframes move {
+  0% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(25px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+		@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+
+	</style>
+</head>
+<body>
+	<section style="background-image: url(roc.png); padding:10px; background-size: 88%;">
+		<div class="wrap">
+		<img src="dori-ef.png" style="position: absolute; 
+				padding: 285px; padding-top:35px; scale:90%; animation: disappear-appear 3s ease-in-out infinite;">
+		<img src="dori-title.png" style="position: absolute; 
+				padding: 285px; padding-top:40px; scale:90%; ">
+		<img src="dori.png" style=" display: block;
+    		margin: 0 auto; position: absolute; padding: 0px; padding-top:110px;padding-left: 50px; padding-bottom: 0px; ">
+    	<div class="rotate1">
+    	<img src="dori-flower.png" style="position: absolute; margin-left:325px;margin-top: 280px; scale: 90%;animation: rotate 6s linear infinite;transform-origin: center; ">
+  	 	</div>
+  	 	<div class="rotate2">
+		<img src="dori-hand.png" style=" position: sticky; border:none; padding: 0px; margin-top:100px; margin-left: 20px; margin-bottom: 100px; scale: 82%; animation: move 3s ease-in-out infinite;">
+		</div>
+		</div>
+	</section>
+<div class="nav">
+<nav>
+	<ul class="menu">
+		<li><a href="#A">자기소개</a></li>
+		<li><a href="#B">할 수 있어요</a></li>
+		<li><a href="#C">필요해요</a></li>
+		<li><a href="#D">받았어요</a></li>
+		<li><a href="#E">입양하기</a></li>
+	</ul>
+</nav>
+</div>
+<section style="background-image: url(bg2.png)">
+	<div id="A">
+		<div class="wrap2">
+			<img src="hello.png" style="display: flex; position:absolute;padding-top:200px;z-index: 2;">
+	  		<img src="int1.png" class="circle" style="width: 1000px; height: 472px;
+	  		scale: 100%; border:none; padding-top:130px;">
+		<div class="dori">
+			<p style="font-size: 1.4em; font-weight: bold;">이름: 도리<br>나이: 2살(발견일 기준)<br>고향: 제주 앞 바다<br><br> 
+			</p>
+			<p style="font-family: 'Gaegu', sans-serif; font-size: 1.1em; font-weight:bold;">
+			<br>안녕하세요! 저는 도리에요.<br>
+			전 1년 전에 지금의 주인에게 입양되어서 같이 놀고, 먹고, 자면서 행복하게 살고있어요. 당신도 제 친구들과 함께 행복한 시간을 보내면서 추억을 만들어 보는 건 어떨까요?</p>
+			</p>
+		</div>
+	  	</div>
+	  </div>
+	</section>
+	<section style="background-image: url(bg34.png); background-size: 100% 125%;">
+	 <div id="B">
+	 <div class="wrapa">
+			<img src="Dot.png" style="position:absolute;padding-left: 120px;padding-top: 1750px; scale: 60%; z-index:1;">
+			<img src="line.png" style="position:absolute; padding-left: 35px; padding-top:1946px;scale: 60%; height: 25px; width: 580px; z-index: 2;">
+			<img src="line.png" style="position:absolute;padding-left: 357px; padding-top:2062px;scale: 60%; height: 25px; width: 205px; z-index: 2;">
+			<img src="line.png" style=" position:absolute;padding-left: 120px; padding-top:2150px;scale: 60%;height: 25px;  width: 260px;; z-index: 2;">
+	 	<img src="mas1.png" style="transform: rotate(2deg);position:absolute;padding-left: 340px;padding-top: 140px; scale: 60% 60%; z-index:1;">	 		 <img src="Dot.png" style="position:absolute;padding-left: 120px;padding-top: 450px; scale: 60%;">
+		 	<img src="line.png" style="position:absolute;padding-left: 85px; padding-top:644px;scale: 60%; height: 25px; width: 415px; z-index: 2;">
+		 	<img src="line.png" style="position:absolute;padding-left: 180px; padding-top:675px;scale: 60%;height: 25px;  width: 50px;; z-index: 2;">
+		 	<img src="line.png" style="position:absolute;padding-left: 257px; padding-top:732px;scale: 60%; height: 25px; width: 345px; z-index: 2;">
+		 	<img src="line.png" style="position:absolute;padding-left: 360px; padding-top:762px;scale: 60%;height: 25px;  width: 250px;; z-index: 2;">
+		 	<img src="line.png" style=" position:absolute;padding-left: 100px; padding-top:850px;scale: 60%;height: 25px;  width: 345px;; z-index: 2;">
+		 </div>
+		</div>
+		<div class="wrap3" style="z-index: 3;">
+			<div class="can1" style="width: 1000px; padding-top: 150px; padding-bottom: 0px;">
+      		  	<h2>:&emsp;도리는&emsp;&emsp;&emsp;&nbsp;할 수 있어요&emsp;:</h2>
+      		</div>
+      		<div class="can2">
+	    	<div class="can" style="padding-right: 100px;">
+	    		<h3>첫번째, 움직이기</h3>
+	  			<p>도리와 상호작용을 하며 여러 동작을<br> 훈련시킬 수 있어요.<br><br>도리는 기본적으로 뛰기,구르기같은 간단한 동작을 할 수 있어요. 시간이 지나면 손뼉치기, 애교부리기 등의 동작을 가르쳐줄 수 있습니다. <br><br>도리와 많은 소통을 해보세요!</p>
+	  		</div>
+	  		<div class="gif">
+	  			<img src="lol.gif" style="shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+				border: 3px solid #000;">
+			</div>
+			</div>
+			<div>
+				<img src="Dot.png" style="position:absolute;padding-left: 710px;padding-top: 150px; scale: 60%; z-index:1">
+				<img src="line.png" style="position:absolute;padding-left: 660px; padding-top:344px; scale: 60%; height: 25px; width: 485px; z-index: 1;">
+				<img src="line.png" style="position:absolute;padding-left: 700px; padding-top:405px; scale: 60%; height: 25px; width: 520px; z-index: 1;">
+				<img src="line.png" style="position:absolute;padding-left: 700px; padding-top:405px; scale: 60%; height: 25px; width: 520px; z-index: 1;">
+				<img src="line.png" style="position:absolute;padding-left: 675px; padding-top:520px; scale: 60%; height: 25px; width: 400px; z-index: 1;">
+			</div>
+			<div class="can2">
+			<div class="gif">
+				<img src="tel.gif" style="shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+				border: 3px solid #000;">
+			</div>
+			<div class="can" style="padding-left: 100px;z-index: 3;">
+	  			<h3>두번째, 상담하기</h3>
+	  			<p>도리는 당신의 이야기를 들어줄 수 있어요.<br><br>당신이 어떤 이야기를 하더라도, 도리는 당신의 곁을 묵묵히 지키며 들어줄 거에요.누군가에게 말하기 힘든 일이 있다면 도리에게 말해봐요. <br><br>도리의 입은 무거우니 걱정마세요.</p>
+			</div>
+			</div>
+
+			<div class="can2"> 
+			<div class="can" style="padding-right: 100px;z-index:3;">
+	  			<h3>세번째, 선택하기</h3>
+	  			<p>도리는 당신이 놓은 여러 선택지 중 하나의 선택지를 골라줄 수 있어요.<br><br>데이트에 무슨 옷을 입을지 고민될 때, 내가 지금 뭘 해야할 지 잘 모르겠을 때, 계속 고민된다면?<br><br>결정장애 해결!<br>도리에게 맡겨보세요!</p>
+			</div> 
+			<div class="gif">
+				<img src="cho.gif" style="shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+				border: 3px solid #000;">
+			</div>
+			</div>
+			<img src="mas1.png" style="transform: rotate(2deg);position:absolute;padding-left: 240px;padding-top: 120px; scale: 60% 60%; z-index:1;">
+<div id="C">
+			<div style="width: 1000px;">
+				<h2 style=" position: relative; padding-top:80px; padding-bottom:80px;margin-top: 50px; shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); z-index: 3;">:&emsp;도리는&emsp;&emsp;&emsp;&nbsp;필요해요&emsp;:</h2>
+			</div>
+		<section class="wrap4" style="background-image: url(bg7.png); padding:15px; height: 320px;">
+			<div style="position:absolute; z-index:5; scale:100%;">
+				<img src="123.png">
+			</div>
+			<div class="need1"style="float: left;z-index: 4;">
+				<img src="san.png" onmouseover="this.src='san1.png'" onmouseout="this.src='san.png'" style="scale:90%">
+			</div>
+			<div class="need2"style="float: left;">
+				<img src="was.png"onmouseover="this.src='was1.png'" onmouseout="this.src='was.png'"style="scale:90%">
+			</div>
+			<div class="need3"style="float: left;">	
+				<img src="sew.png"onmouseover="this.src='sew1.png'" onmouseout="this.src='sew.png'"style="scale:90%">
+			</div>
+			<div class="need1" style="float: left;">
+				<img src="nol.png"onmouseover="this.src='nol1.png'" onmouseout="this.src='nol.png'"style="scale:90%">
+			</div>
+			<div class="img_bg1">
+			<img src="img_bg1.png" style="padding-left:50px;z-index:2"><img src="img_bg1.png"style="padding-left:103px;z-index:2"><img src="img_bg1.png"style="padding-left:103px;z-index:2"><img src="img_bg1.png"style="padding-left:103px;z-index:2">
+			</div>
+			<div style="margin-top: 250px; position: absolute; z-index:5">
+			<h4>산책하기</h4><h4>목욕하기</h4><h4>먹이주기</h4><h4>놀아주기</h4>
+			</div>
+			</div>
+			</div>
+			</section>
+			</div>
+			</div>
+	</section>
+	<section style="background-image: url(bg9.png);">
+		<div class="wrap8" style="position: relative; width: 1000px;">
+
+		<div class="con" style="scale: 110%;">
+		<img src="con1.png" style="position:absolute; float: left;;padding-left:225px; padding-top:320px"><img src="con2.png"style="position:absolute; float: left;padding-top: 350px;padding-left:525px; padding-top: 320px;"><img src="con3.png"style="position:absolute; float: left;padding-left:825px; padding-top: 320px;">
+		</div>
+		</div>
+<div id="D">
+		<img src="mas1.png" style="transform: rotate(2deg);position:absolute;padding-left: 410px;padding-top: 110px; scale: 60% 60%; z-index:1;">
+	<div class="rev">
+		<h2 style="width: 1000px; padding-top:120px; padding-bottom:120px; color:#000; text-align: center; position: relative; z-index: 2">:&emsp;도리는&emsp;&emsp;&emsp;&nbsp;받았어요&emsp;:</h2>
+		<div class="column-3" style="margin-left:80px; padding-top: 250px; font-size:0.9em;">
+	  		<h5>김** ☆☆☆☆☆<br>감자도리(1세)<br>-----------------<br></h5>
+	  		<p>작아서 손에 들고 산책하면 되니까 너~무 편해요 ^^산책도 자주 안시켜도 되서 좋습니다~~ 무엇보다 작아서 귀엽습니다^^ </p>
+	  </div>
+	  <div class="column-3" style="margin-left:130px;padding-top: 250px;font-size:0.9em;">
+	  		<h5>김** ☆☆☆☆☆<br>김돌(2세)<br>-----------------<br></h5>
+	  		<p>먹이를 주지 않아도 돼서 사료값이 들어가지 않기에 당연히 먹이를 제때 챙겨야하는 번거로움이 없습니다. 아주 좋아요. 목욕도 간편해서 좋습니다.</p>
+	  </div>
+	  <div class="column-3" style="margin-left:130px;padding-top: 250px;font-size:0.9em;">
+	  		<h5>이** ☆☆☆☆☆<br>돌돌멩이 (3세)<br>-----------------<br></h5>
+	  		<p>꾸며주는 재미가 있어요! 표정도 제가 원하는 대로 그릴 수 있구 스티커나 리본같은 걸 달아서 꾸며도 정말 귀여워용 ㅋㅋ 앞으로 평생 같이 살자!!! </p>
+	  </div>
+	</div>
+	</div>	
+	</section>
+<div id="E">
+	<section style="background-image: url(bg10.png);background-size: cover;">
+	<h2 style="width: 1000px; padding-top:120px; position:absolute; padding-bottom:120px; text-align: center; z-index: 2">:&nbsp;도리를 위한&emsp;&emsp;&nbsp;&emsp;&nbsp;&emsp;</h2>
+	<img src="mas1.png" style="transform: rotate(0deg);position:absolute;padding-left: 440px;padding-top: 110px; scale: 135% 60%; z-index:1;">
+	<img src="post.png" style="width: auto;
+    height: auto;
+    float: left;
+    position: absolute;
+    padding: 335px;
+    padding-left: 105px;
+    font-size: 1em;">
+    <div class="doridori">
+    <img src="dori-pen.png" style="width: auto;
+    height: auto;
+    float: left;
+    position: absolute;
+    padding: 335px;
+    padding-left: 105px;
+    font-size: 1em;">
+    <img src="dori-t.png" style="width: auto;
+    height: auto;
+    float: left;
+    position: absolute;
+    padding: 335px;
+    padding-left: 105px;
+    font-size: 1em;">
+    <img src="dori-home.png" style="width: auto;
+    height: auto;
+    float: left;
+    position: absolute;
+    padding: 335px;
+    padding-left: 105px;
+    font-size: 1em;">
+    <img src="dori-ta.png" style="width: auto;
+    height: auto;
+    float: left;
+    position: absolute;
+    padding: 335px;
+    padding-left: 105px;
+    font-size: 1em;">
+    <img src="dori-adop.png"
+     style="width: auto;
+    height: auto;
+    float: left;
+    position: absolute;
+    padding: 335px;
+    padding-left: 105px;
+    font-size: 1em;">
+    <img src="dori-rope.png"style="width: auto;
+    height: auto;
+    float: left;
+    position: absolute;
+    padding: 335px;
+    padding-left: 105px;
+    font-size: 1em;">
+	</div>
+		<div style="width: 1000px; position: relative;">
+		<div style="width: 1000px;">
+				<h2 style="width: 1000px; padding-top:1100px; padding-bottom:0px; text-align: left; margin-left: 150px; z-index: 2">:&nbsp;애완돌 Set 19,900원</h2>	
+				<img src="last.png" style="display: block; width: 750px; height: auto; shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); margin-top:100px;  ;
+				border: 5px solid #000;  margin-left: 225px;">
+				<img src="green.png" style="margin-left: 100px; position:absolute; scale:80%60%; z-index:1">
+				<h2 style="width: 1000px; position: relative; padding-top:150px; padding-bottom:600px; text-align: center; margin-left: 120px; z-index: 2">"애완돌, 입양하실래요?"</h2>	
+		</div>
+		<button onclick="openPopup()" style="margin-left: 125px;margin-top:620px ;">입양하러 가기</button>
+
+		<footer style="margin-top:200px; padding: 150px; background-image: url(bg2.png);">
+			<div style="text-align: center;">21100983 권지은 시각디자인과
+		</div>
+		</footer>
+	</section>
+	<script>
+function openPopup() {
+window.open("https://example.com", "Dori 입양을 축하합니다!", "scrollbars=no");}/*"팝업창 URL", "팝업창 이름", "옵션들"*/
+
+</body>
+</html>
